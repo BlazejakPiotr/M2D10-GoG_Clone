@@ -1,3 +1,6 @@
+body {
+  background-color: #d8d8d8;
+}
 nav {
   font-family: "Encode Sans SC", sans-serif;
   background: rgb(46, 46, 46);
@@ -7,6 +10,7 @@ nav {
     rgba(52, 52, 52, 1) 50%,
     rgba(56, 56, 56, 1) 100%
   );
+  box-shadow: 2px 2px 5px grey;
 }
 nav a {
   font-size: 0.85rem;
@@ -18,4 +22,29 @@ nav a:hover {
 
 .pink {
   color: #de8ae5;
+}
+
+.section-title {
+  font-weight: 600;
+}
+
+.carousel-img {
+  border-radius: 4px;
+  box-shadow: 0px 2px 5px grey;
+}
+.carousel-button {
+  background: linear-gradient(-180deg, #c1ec51, #80b02a);
+  color: white;
+}
+.card-img-top {
+  border-radius: 0;
+}
+
+.card {
+  background: rgb(230, 230, 230);
+  border-radius: 0px;
+  box-shadow: 0px 2px 5px rgb(216, 216, 216);
+}
+.product-title-img {
+  max-height: 100px;
 }
