@@ -1,0 +1,21 @@
+nav {
+  font-family: "Encode Sans SC", sans-serif;
+  background: rgb(46, 46, 46);
+  background: linear-gradient(
+    90deg,
+    rgba(46, 46, 46, 1) 0%,
+    rgba(52, 52, 52, 1) 50%,
+    rgba(56, 56, 56, 1) 100%
+  );
+}
+nav a {
+  font-size: 0.85rem;
+  color: rgb(197, 197, 197);
+}
+nav a:hover {
+  color: white;
+}
+
+.pink {
+  color: #de8ae5;
+}
